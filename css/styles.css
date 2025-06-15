@@ -89,13 +89,16 @@ main {
   color: #333;
   font-size: 1.1rem;
   line-height: 1.7;
-  font-family: 'Inter', 'Poppins', sans-serif;
+  font-family: 'Railway', 'Poppins', sans-serif;
 
-  /* Neumorphic Indent */
-  background: #e6e6e6; /* Light neutral base */
-  box-shadow: inset 4px 4px 8px #bebebe,
-              inset -4px -4px 8px #ffffff;
 }
+
+.about-me p, .about-me h2, .about-me li {
+  color: #555;
+  text-shadow: 1px 1px 0 #fff, 
+               -1px -1px 0 #aaa;
+}
+
 
 .card, .about-me {
   flex: 1;
