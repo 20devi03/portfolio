@@ -27,3 +27,27 @@ nav a:hover {
 main {
   padding: 2em;
 }
+
+/* Add this at the bottom */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main h1, main p {
+  animation: fadeInUp 1s ease-out both;
+}
+
+main h1 {
+  animation-delay: 0.2s;
+}
+main p {
+  animation-delay: 0.4s;
+}
+
