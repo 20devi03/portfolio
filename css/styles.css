@@ -1,73 +1,35 @@
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #fef6c9, #d4f6cc); /* Pastel pink to blue */
-  color: #333;
-  min-height: 100vh;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <div class="card">
+      <img src="img/yourphoto.jpg" alt="Profile Photo" class="profile-photo" />
+      <h1>Hello, I'm Niranjana Prasad</h
+
+/* === Profile Photo Styling === */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes the photo circular */
+  object-fit: cover; /* Keeps the image nicely cropped */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease; /* Smooth hover zoom */
 }
 
-
-nav {
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(8px);
-  padding: 1rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  border-bottom: 1px solid #eee;
-}
-nav a {
-  color: #555;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0 1rem;
-}
-
-nav a:hover {
-  color: #ff69b4;
-  text-shadow: 0 0 5px #ffb6c1, 0 0 10px #ff69b4;
-  transition: all 0.3s ease;
-}
-
-button {
-  background: linear-gradient(45deg, #fcd5ce, #d4e2d4);
-  border: none;
-  padding: 0.8rem 1.5rem;
-  border-radius: 12px;
-  color: #333;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-
-main {
-  padding: 2em;
-}
-
-/* Add this at the bottom */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-main h1, main p {
-  animation: fadeInUp 1s ease-out both;
-}
-
-main h1 {
-  animation-delay: 0.2s;
-}
-main p {
-  animation-delay: 0.4s;
+.profile-photo:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
 }
 
