@@ -1,0 +1,15 @@
+.download-btn {
+  background: #ffb6b9;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+  background: #ff69b4;
+}
