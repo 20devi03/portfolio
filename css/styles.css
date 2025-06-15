@@ -82,16 +82,22 @@ main {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   backdrop-filter: blur(16px);
-  box-shadow: inset 2px 2px 8px rgba(255, 255, 255, 0.2),
-              inset -2px -2px 8px rgba(0, 0, 0, 0.05),
-              0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 
+    inset 2px 2px 8px rgba(255, 255, 255, 0.2),
+    inset -2px -2px 8px rgba(0, 0, 0, 0.05),
+    0 4px 20px rgba(0, 0, 0, 0.1);
   padding: 2rem;
   font-size: 1.1rem;
   line-height: 1.7;
   max-width: 45%;
   color: #222;
   flex: 1;
+
+  /* === Added aesthetic spacing and shift === */
+  margin-left: -1rem; /* Pulls it slightly left */
+  font-family: 'Inter', 'Poppins', 'Segoe UI', sans-serif; /* Modern, clean font */
 }
+
 
 /* === Responsive Adjustments === */
 @media (max-width: 768px) {
