@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #fceff9, #e0f7fa); /* Pastel pink to blue */
+  background: linear-gradient(135deg, #fef6c9, #d4f6cc); /* Pastel pink to blue */
   color: #333;
   min-height: 100vh;
 }
