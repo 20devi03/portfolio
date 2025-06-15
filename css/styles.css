@@ -62,7 +62,7 @@ main {
 .profile-photo {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 50%;git 
   object-fit: cover;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   margin-bottom: 1rem;
