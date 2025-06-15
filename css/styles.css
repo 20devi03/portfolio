@@ -6,6 +6,7 @@ body {
   min-height: 100vh;
 }
 
+/* === Navigation Bar === */
 nav {
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(8px);
@@ -27,6 +28,7 @@ nav a:hover {
   transition: all 0.3s ease;
 }
 
+/* === Buttons === */
 button {
   background: linear-gradient(45deg, #fcd5ce, #d4e2d4);
   border: none;
@@ -43,24 +45,68 @@ button:hover {
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
+/* === Main Padding === */
 main {
   padding: 2em;
 }
 
+/* === NEW: Flex container to arrange card and about-me side by side === */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 5vw;
+  gap: 3rem;
+  flex-wrap: wrap; /* For responsive fallback */
+}
+
+/* === Card Styling (LEFT SIDE) === */
 .card {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   backdrop-filter: blur(10px);
   padding: 2rem;
   box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-
-  margin: 2rem 0 2rem 2rem; /* Top, Right, Bottom, Left */
-  max-width: 600px;
-  text-align: centre; /* Optional: for text inside the card */
+  max-width: 45%;
+  text-align: left;
+  transition: transform 0.3s ease;
+  flex: 1;
 }
 
+.card:hover {
+  transform: scale(1.02);
+}
 
-.card img{
+/* === About Me Styling (RIGHT SIDE) === */
+.about-me {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(16px);
+  box-shadow: inset 2px 2px 8px rgba(255, 255, 255, 0.2),
+              inset -2px -2px 8px rgba(0, 0, 0, 0.05),
+              0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 45%;
+  color: #222;
+  flex: 1;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card, .about-me {
+    max-width: 90%;
+  }
+}
+
+/* === Profile Image Styling === */
+.card img {
    max-width: 100%;
    height: auto;
 }
@@ -75,7 +121,6 @@ main {
   margin-bottom: 1rem;
   transition: transform 0.3s ease;
 }
-
 
 .profile-photo:hover {
   transform: scale(1.05);
@@ -105,9 +150,6 @@ main p {
   animation-delay: 0.4s;
 }
 
-.about-me {
-  padding: 20px;
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
+
+
 
