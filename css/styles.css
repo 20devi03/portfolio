@@ -79,7 +79,7 @@ main {
 
 /* === About Me Styling (RIGHT SIDE) === */
 .about-me {
-  background: rgba(255, 255, 255, 0.1);
+  background: none;
   border-radius: 20px;
   backdrop-filter: blur(16px);
   box-shadow: 
@@ -89,12 +89,13 @@ main {
   padding: 2rem;
   font-size: 1.1rem;
   line-height: 1.7;
-  max-width: 45%;
+  max-width: none;
+  min-width: 500 px;
   color: #222;
   flex: 1;
 
   /* === Added aesthetic spacing and shift === */
-  margin-left: -1rem; /* Pulls it slightly left */
+  margin-left: -2rem; /* Pulls it slightly left */
   font-family: 'Inter', 'Poppins', 'Segoe UI', sans-serif; /* Modern, clean font */
 }
 
