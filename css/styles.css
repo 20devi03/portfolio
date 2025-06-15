@@ -1,20 +1,27 @@
 body {
-  font-family: sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fceff9, #e0f7fa); /* Pastel pink to blue */
   color: #333;
+  min-height: 100vh;
 }
+
 
 nav {
-  background: #333;
-  padding: 1em;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-bottom: 1px solid #eee;
 }
-
 nav a {
-  color: white;
-  margin-right: 1em;
+  color: #555;
+  font-weight: bold;
   text-decoration: none;
+  margin: 0 1rem;
+}
+nav a:hover {
+  color: #ff69b4;
 }
 
 main {
