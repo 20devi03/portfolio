@@ -27,6 +27,23 @@ nav a:hover {
   transition: all 0.3s ease;
 }
 
+button {
+  background: linear-gradient(45deg, #fcd5ce, #d4e2d4);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
 main {
   padding: 2em;
 }
