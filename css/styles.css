@@ -187,5 +187,25 @@ main p {
   }
 }
 
+#projects {
+  background-image: url('../img/parallax-bg.jpg'); /* add your own bg image */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+  color: #333;
+  position: relative;
+  z-index: 1;
+}
+
+#projects::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.6); /* soft overlay */
+  z-index: -1;
+}
+
 
 
