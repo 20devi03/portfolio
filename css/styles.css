@@ -11,9 +11,11 @@ body {
 
 /* === Navigation Bar === */
 nav {
+  display: flex;
+  justify-content: flex-end; /* Pushes links to the right */
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(8px);
-  padding: 1rem;
+  padding: 1rem 2rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   border-bottom: 1px solid #eee;
 }
