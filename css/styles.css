@@ -166,6 +166,26 @@ main p {
   animation-delay: 0.4s;
 }
 
+.section-divider {
+  width: 60%;
+  height: 3px;
+  border: none;
+  margin: 4rem auto 2rem auto;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #f7d774, #facc15, #f7d774);
+  background-size: 200% auto;
+  animation: shine 2s linear infinite;
+  box-shadow: 0 0 10px #facc15aa, 0 0 20px #facc1577;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
 
 
 
