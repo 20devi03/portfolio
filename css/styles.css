@@ -35,8 +35,9 @@ nav a:hover {
 
 /* === Buttons === */
 button {
-  background: linear-gradient(45deg, #fcd5ce, #d4e2d4);
-  border: none;
+  background: linear-gradient(45deg, #f7bfa6, #bfe3c0);
+  border: 2px solid #ccc; /* ✨ soft border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* ✨ gentle shadow */
   padding: 0.8rem 1.5rem;
   border-radius: 12px;
   color: #333;
