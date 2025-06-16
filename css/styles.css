@@ -172,11 +172,11 @@ main p {
   width: 0;
   opacity: 0;
   margin: 4rem auto 2rem;
-  background: linear-gradient(to right, #cde3f5, #dce7f0, #cde3f5);
+  background: linear-gradient(to right, #4f46e5, #6366f1, #4f46e5);
   box-shadow:
-    0 0 10px #dce7f0,
-    0 0 20px #e6f4ff,
-    0 0 30px #cde3f5;
+    0 0 12px #6366f1,
+    0 0 24px #4f46e5,
+    0 0 36px #4338ca;
   border-radius: 5px;
   transition: width 1.5s ease-out, opacity 1s ease-out;
 }
