@@ -222,9 +222,10 @@ main p {
 
 .flip-card {
   background-color: transparent;
-  width: 100%;
+  width: 300px;
   height: 300px;
   perspective: 1000px;
+  margin: 0 auto; /* centers in mobile */
 }
 
 .flip-card-inner {
