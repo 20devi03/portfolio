@@ -82,7 +82,7 @@ main {
 }
 
 /* === About Me Styling (RIGHT SIDE) === */
-.about-me {
+.about-section {
   background: none;
   backdrop-filter: none;
   box-shadow: none;
@@ -94,14 +94,14 @@ main {
   font-family: 'Lora', 'Raleway', 'Poppins', sans-serif;
 }
 
-.about-me p, .about-me h2, .about-me li {
+.about-section p, .about-me h2, .about-me li {
   color: #555;
   text-shadow: 1px 1px 0 #fff, 
                -1px -1px 0 #aaa;
 }
 
 
-.card, .about-me {
+.card, .about-section {
   flex: 1;
   min-width: 300px;
 }
@@ -115,7 +115,7 @@ main {
     align-items: center;
   }
 
-  .card, .about-me {
+  .card, .about-section {
     max-width: 90%;
   }
 }
