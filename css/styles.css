@@ -228,8 +228,8 @@ main p {
 
 .flip-card {
   background-color: transparent;
-  width: 100%; /* Or remove */
-max-width: none;
+  width: 100%;        /* Take full width of the grid column */
+  max-width: 250px;   /* But don’t stretch beyond this */
   height: 250px;
   perspective: 1000px;
   /* ❌ REMOVE this ↓ */
