@@ -220,6 +220,14 @@ main p {
   }
 }
 
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* or space-between / space-evenly */
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
 .flip-card {
   background-color: transparent;
   width: 100%;        /* Take full width of the grid column */
