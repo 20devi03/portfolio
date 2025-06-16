@@ -172,7 +172,7 @@ main p {
   width: 0;
   opacity: 0;
   margin: 4rem auto 2rem;
-  background: linear-gradient(to right, #4f46e5, #6366f1, #4f46e5);
+  background: linear-gradient(to right, #76c1d6, #a2d0ed, #9bc6ef);
   box-shadow:
     0 0 12px #9292b0,
     0 0 24px #a29eef,
@@ -320,5 +320,7 @@ main p {
   background-color: #7e96d6;
 }
 
-
+.projects-container, .flip-card {
+  border: 2px dashed hotpink;
+}
 
