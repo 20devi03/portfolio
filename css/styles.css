@@ -222,11 +222,14 @@ main p {
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 100%;        /* Take full width of the grid column */
+  max-width: 300px;   /* But don’t stretch beyond this */
   height: 300px;
   perspective: 1000px;
-  margin: 0 auto; /* centers in mobile */
+  /* ❌ REMOVE this ↓ */
+  /* margin: 0 auto; */
 }
+
 
 .flip-card-inner {
   position: relative;
