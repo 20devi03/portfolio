@@ -183,7 +183,7 @@ main p {
 
 /* When it comes into view */
 .section-divider.expand {
-  width: 80%;
+  width: 100%;
   opacity: 1;
   animation: shimmer 3s infinite alternate ease-in-out;
 }
