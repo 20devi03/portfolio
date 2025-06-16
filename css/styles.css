@@ -128,12 +128,13 @@ main {
 
 /* === Profile Photo Styling === */
 .profile-photo {
-  width: 150px !important;
-  height: 150px !important;
+  width: 180px !important;
+  height: 180px !important;
   object-fit: cover !important;
   border-radius: 50%;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   margin-bottom: 1rem;
+  margin-left: 1rem;
   transition: transform 0.3s ease;
 }
 
